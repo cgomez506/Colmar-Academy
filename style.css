@@ -1,7 +1,9 @@
-.navbar{
-    background-color:rgb(165, 100, 100);
+
+ .navbar a{
+ background-color:cadetblue;
+    
 }
 
-.navbar li{
-    color:white;
+h1{
+    text-align: center;
 }
