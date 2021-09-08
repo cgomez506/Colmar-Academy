@@ -1,9 +1,10 @@
-
- .navbar a{
- background-color:cadetblue;
-    
+.banner{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: grey;
 }
 
-h1{
-    text-align: center;
+.banner img{
+    padding: 32px 24px;
+    height:auto;
 }
