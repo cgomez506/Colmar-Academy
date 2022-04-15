@@ -1,15 +1,151 @@
-.banner{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background-color: grey;
+nav {
+  background: rgba(250,250,250,0.2);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 300;
+  box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
+
+}
+body{
+  background: rgb(222,212,212);
+background: linear-gradient(87deg, rgba(222,212,212,1) 0%, rgba(20,20,20,1) 88%);
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-right: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: grey;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+} 
+
+nav a{
+  font-size:large;
+    color: #6a6a6a; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.banner img{
-    padding: 32px 24px;
-    height:auto;
-    background-color:skin;
+span.day{
+color:white;
+
+
 }
 
-.welcome h1{
-    text-allign:center;
+span.night{
+  color:black;
+
+}
+
+.video-container{
+  height: 500px;
+  
+}
+
+.media{
+  position: absolute;
+text-align: center;
+  color: #f1f1f1;
+  width: 100%;
+padding: 30px;
+
+}
+
+.media h1{
+  font-size: 100px;
+  color: rgba(176, 176, 176, 0.649);
+  z-index: -5;
+  box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 0%);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.media h3{
+  background: -webkit-linear-gradient(#333, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  min-width: 100%; 
+  max-height: 80%;
+}
+
+
+.flex-container{
+  text-align: center;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-top:400px;
+
+}
+
+.col-sm-4 img{
+  width: 200px; /* width of container */
+  height: 200px; /* height of container */
+  object-fit: cover;
+  border: 5px solid black;
+
+   
+}
+
+.black_button {
+  display: inline-block;
+  width: 85%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 5px!important;
+  text-align: center;
+  background-color: black;
+
+}
+
+.black_button a{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:white;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  text-align: center;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.paragraph p{
+
+  text-shadow: 15x;
+  text-emphasis-color: red;
+
+}
+
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    padding: 25px;
+  }
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+@media  (max-width:320px) {
+.video-container{
+  width: 50px;
+ height: 50px;
+}
 }
